@@ -1,3 +1,7 @@
+# Travis example for Modern C++ by Rafał Pocztarski
+# For more languages and info see:
+# https://github.com/rsp/travis-hello#readme
+
 sudo: false
 language: cpp
 compiler:
@@ -16,4 +20,4 @@ install:
 - "[ $CXX = clang++ ] && export CXX=clang++-3.8 || true"
 script:
   - make
-- make test
+  - make test
